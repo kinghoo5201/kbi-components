@@ -3,7 +3,6 @@
 // @create 2021-08-23T05:21:28.400Z
 
 import * as React from 'react';
-import isNil from 'lodash/isNil';
 import './index.less';
 
 export interface ITestCompProps {}
@@ -16,7 +15,12 @@ export interface ITestCompProps {}
  * @create 2021-08-13 20:38
  */
 const TestComp: React.FC<ITestCompProps> = (props) => {
-  return <div>{new Date().toISOString()}测试组件</div>;
+  const { style, className, id, children } = props as any;
+  return (
+    <div style={style} id={id} className={className}>
+      {new Date().toISOString()}测试组件{children}
+    </div>
+  );
 };
 
 export default TestComp;

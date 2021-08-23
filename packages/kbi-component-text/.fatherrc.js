@@ -15,7 +15,4 @@ export default {
       },
     ],
   ],
-  autoprefixer: {
-    browsers: ['ie>8', 'Safari >= 6'],
-  },
 };

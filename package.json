@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "kbi 组件集",
   "main": "index.js",
-  "directories": {
-    "commit": "git add . && git commit -m \"auto commit with shell\" && ( ( git pull && git push && echo \"提交成功\" )|| ( git reset HEAD && echo \"pull错误，已重置\" ) )"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git add . && git commit -m \"auto commit with shell\" && ( ( git pull && git push && echo \"提交成功\" )|| ( git reset HEAD && echo \"pull错误，已重置\" ) )"
   },
   "dependencies": {
     "@types/lodash": "^4.14.172",
