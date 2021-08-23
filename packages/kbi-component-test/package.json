@@ -1,0 +1,29 @@
+{
+  "name": "kbi-component-test",
+  "version": "0.1.0",
+  "description": "测试用组件",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinghoo5201/kbi-component-test.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "father build",
+    "dev": "dumi dev"
+  },
+  "author": {
+    "name": "kinghoo",
+    "email": "970489393@qq.com"
+  },
+  "maintainers": [
+    {
+      "name": "kinghoo",
+      "email": "970489393@qq.com"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "kbi-component-test",
+    "React Component"
+  ]
+}
